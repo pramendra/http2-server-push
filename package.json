@@ -1,0 +1,33 @@
+{
+  "name": "http2-server-push",
+  "version": "1.0.0",
+  "description": "Nextjs app using server push over http2/spdy using express",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramendra/http2-server-push.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "http2",
+    "spdy",
+    "http3"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "spdy": "^4.0.2"
+  }
+}
