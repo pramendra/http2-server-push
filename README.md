@@ -10,7 +10,7 @@ $ npm i
 
 ### generate certificate 
 ```bash
-openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout ssl_server.key -out ssl_server.crt 
+$ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout ssl_server.key -out ssl_server.crt 
 ```
 
 #### enable chorme setting to test
@@ -22,7 +22,9 @@ chrome://flags/#allow-insecure-localhost
 
 > relunch
 
-### npm run start
-
+### run the app
+```bash
+$ npm run start
+```
 ## debug
 > check network tab in inspect 
