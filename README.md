@@ -24,6 +24,7 @@ chrome://flags/#allow-insecure-localhost
 
 ### run the app
 ```bash
+$ npm run build
 $ npm run start
 ```
 ## debug

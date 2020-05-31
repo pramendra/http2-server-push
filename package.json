@@ -1,7 +1,7 @@
 {
   "name": "http2-server-push",
   "version": "1.0.0",
-  "description": "Nextjs app using server push over http2/spdy using express",
+  "description": "Server push using http2/spdy on nextJS app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pramendra/http2-server-push.git"
